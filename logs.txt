@@ -1,0 +1,37 @@
+C:\Users\marti\Documents\SI_2023_lab1_203036>git log
+commit 7a9c3464342cbc80338c4e0ad924027ae956d19f (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: MartinaMiceva <miceva.martina@gmail.com>
+Date:   Sat Apr 1 21:12:44 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 133e3a4ff19ca35703de5cbdac9f04a3a6954721
+Merge: 47168b6 d1ff65e
+Author: MartinaMiceva <miceva.martina@gmail.com>
+Date:   Sat Apr 1 21:15:19 2023 +0200
+
+    Merge branch 'bug2'
+
+commit d1ff65eb6be2a2b9667ffbc4a2723fbe29333bc0 (origin/bug2, bug2)
+Author: MartinaMiceva <miceva.martina@gmail.com>
+Date:   Sat Apr 1 21:10:20 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 47168b6f14150927cdf02b343371e77429c67577 (origin/bug1, bug1)
+Author: MartinaMiceva <miceva.martina@gmail.com>
+Date:   Sat Apr 1 21:08:12 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 08b89cc4203b5d1bbc21e0cc56a21de07c555067
+Author: MartinaMiceva <miceva.martina@gmail.com>
+Date:   Sat Apr 1 20:55:50 2023 +0200
+
+    Add java class
+
+commit aa342522155c6114aa7e629fe3719e8649ec9352
+Author: MartinaMiceva <miceva.martina@gmail.com>
+Date:   Sat Apr 1 20:53:22 2023 +0200
+
+    Initial commit
