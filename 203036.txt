@@ -1,0 +1,26 @@
+1. креирав профил
+2. наместо main го сменив името во master
+3. со инструкциите за create new repository креирав repo SI_2023_Lab1_203036
+4. креирав локално директориум со истото име како repo-то
+5. се ги поврзав repo-ата преку git remote add origin https://github.com/MartinaMiceva/SI_2023_lab1_203036.git
+6. направив README.md и првичен commit со git add README.md и git commit -m "Initial commit"
+7. исто креирам фајл SILab1.java со кодот од линкот, го зачувувам во директориумот и му правам git add SILab.java и  git commit -m "Add java class"
+8. за да ги sync-нам repo-ата правам git push 
+9. направив 3 гранки со git branch bug1 bug2 bug3 соодветно секое посебно
+10. се префлив на bug1 со git checkout bug1
+11. ја поправив грешката, го ставив фајлот на stage со git add SILab1.java и направив commit со порака git commit -m "msg"
+12. се префлив на bug2 со git checkout bug2
+13. ја поправив грешката, го ставив фајлот на stage со git add SILab1.java и направив commit со порака git commit -m "msg"
+14. се префлив на bug3 со git checkout bug3
+15. ја поправив грешката, го ставив фајлот на stage со git add SILab1.java и направив commit со порака git commit -m "msg"
+16. се префлив на master со git checkout master
+17. ги sync-нав со git push --аll
+18. направив git merge bug1
+19. направив git merge bug2
+20. се префрлив на bug3 со git checkout bug3   
+21. направив git rebase master
+22. се префлив на master со git checkout master
+23. направив git merge bug3
+24. направив git push --all ама не работеше и морав да направам прво git push --force origin bug3
+25. и сега направив повторно git push --all
+
